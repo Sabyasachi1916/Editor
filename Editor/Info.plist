@@ -64,5 +64,9 @@
 	<array>
 		<dict/>
 	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Allow to access face id authentication to authenticate you</string>
+	<key>UIApplicationExitsOnSuspend</key>
+	<true/>
 </dict>
 </plist>

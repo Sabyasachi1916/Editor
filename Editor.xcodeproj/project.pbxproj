@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A00A62E249C247800EB2E37 /* LockScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A00A62D249C247800EB2E37 /* LockScreenVC.swift */; };
 		FF4D8575249ADF6D00B975C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D8574249ADF6D00B975C9 /* AppDelegate.swift */; };
 		FF4D8577249ADF6D00B975C9 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D8576249ADF6D00B975C9 /* DocumentBrowserViewController.swift */; };
 		FF4D8579249ADF6D00B975C9 /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4D8578249ADF6D00B975C9 /* DocumentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A00A62D249C247800EB2E37 /* LockScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenVC.swift; sourceTree = "<group>"; };
 		FF4D8571249ADF6D00B975C9 /* Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Editor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4D8574249ADF6D00B975C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF4D8576249ADF6D00B975C9 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				FF4D8576249ADF6D00B975C9 /* DocumentBrowserViewController.swift */,
 				FF4D8578249ADF6D00B975C9 /* DocumentView.swift */,
 				FF4D857A249ADF6D00B975C9 /* Document.swift */,
+				1A00A62D249C247800EB2E37 /* LockScreenVC.swift */,
 				FF4D857C249ADF6D00B975C9 /* Main.storyboard */,
 				FF4D857F249ADF6E00B975C9 /* Assets.xcassets */,
 				FF4D8581249ADF6E00B975C9 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A00A62E249C247800EB2E37 /* LockScreenVC.swift in Sources */,
 				FF4D857B249ADF6D00B975C9 /* Document.swift in Sources */,
 				FF4D8577249ADF6D00B975C9 /* DocumentBrowserViewController.swift in Sources */,
 				FF4D8579249ADF6D00B975C9 /* DocumentView.swift in Sources */,
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27Y6QDGA87;
 				INFOPLIST_FILE = Editor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 27Y6QDGA87;
 				INFOPLIST_FILE = Editor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
